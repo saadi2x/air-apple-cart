@@ -1,0 +1,163 @@
+
+
+
+.body{
+  background-color: #F7F9FB;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App{
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  box-sizing: border-box;
+  background-position: center;
+  background-color: #F7F9FB;
+  text-align: center;
+}
+
+
+
+
+
+/*=====================================================*/
+/* Main */
+/*=====================================================*/
+
+.main-area{
+  display: flex;
+}
+
+
+.main{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/*=====================================================*/
+/* LHS Menu */
+/*=====================================================*/
+
+.lhs-menu{
+  display: flex;
+  
+  width:fit-content;
+  height: 100%;
+  width: 18.75%;
+  min-width: 320px;
+  background-color: #ffffff;
+  border-right: 1px solid #EFEFEF;  
+  }
+
+
+
+
+
+/*=====================================================*/
+/* Page Area */
+/*=====================================================*/
+
+.page-area{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1
+  
+}
+
+
+
+
+/*=====================================================*/
+/* Header */
+/*=====================================================*/
+
+.header{
+  display: flex;
+  width: 100%;
+  height: 72px;
+  background-color: #ffffff;
+}
+
+
+
+/*=====================================================*/
+/* Page */
+/*=====================================================*/
+
+.page{
+  display: flex;
+  padding: 24px;
+  flex-grow: 1;
+}
+
+
+/*=====================================================*/
+/* Content Area */
+/*=====================================================*/
+
+.content-area {
+  display: flex;
+  width: 100%;
+ height: 100%;
+  background-color: #ffffff;
+  padding: 24px;
+  
+}
+
+
+
+
+/*=====================================================*/
+/* Dashboard */
+/*=====================================================*/
+
+
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  width:inherit;
+  gap: 20px;
+  
+}
+
+
+.dashboard .row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.figures{
+display: flex;
+flex-direction: row;
+border: 1px solid #E9EAEF;
+padding: 16px 24px;
+}
+
+.figure-set{
+  width: 260px;
+  text-align: left;
+}
+
+
+
+
+
+
+.cardsrow{
+align-items: center;
+}
+
+.cardbox{
+  width: -moz-available;
+}
